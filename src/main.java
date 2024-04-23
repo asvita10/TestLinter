@@ -17,6 +17,7 @@ public class Application {
             var counter = 100;
 
         } catch (Exception e) {
+            System.out.println(e);
             return null;
         }
     }
