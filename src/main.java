@@ -17,7 +17,7 @@ public class Application {
             var counter = 100;
 
         } catch (Exception e) {
-
+            return null;
         }
     }
 
