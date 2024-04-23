@@ -11,3 +11,6 @@ jobs:
           github_token: ${{ secrets.github_token }}
           reporter: github-pr-review
           level: error
+          fail_on_error: true
+          checkstyle_config: ./properties_file/test_checks.xml
+          properties_file: ./properties_file/additional.properties

@@ -6,7 +6,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class Main {
+public class Application {
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
@@ -17,8 +17,7 @@ public class Main {
             var counter = 100;
 
         } catch (Exception e) {
-            System.out.println(e);
-            return null;
+
         }
     }
 
